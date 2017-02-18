@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Hello world!</title>
+        <link rel="stylesheet" href="{%- raw -%}{{{%- endraw -%} url_for('{{cookiecutter.package_name}}_blueprint.static', filename='css/{{cookiecutter.package_name}}.css') {%- raw -%}}}{%- endraw -%}">
+    </head>
+    <body>
+        <h1>Welcome to {{cookiecutter.project_name}}!</h1>
+        <img src="{%- raw -%}{{{%- endraw -%} url_for('{{cookiecutter.package_name}}_blueprint.static', filename='img/thumbs-up.gif') {%- raw -%}}}{%- endraw -%}" />
+    </body>
+</html>

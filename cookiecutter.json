@@ -1,0 +1,10 @@
+{
+    "author": "Peter Python",
+    "email": "peter.python@mail.com",
+    "package_name": "flask_app",
+    "project_name": "My Flask Application",
+    "project_description": "A Sample Flask Application",
+    "project_repository": "git@github.com:afreeorange/repo.git",
+    "version": "0.0.1",
+    "documentation_markup": ["reStructuredText", "Markdown"]
+}
